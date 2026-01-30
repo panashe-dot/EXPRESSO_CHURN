@@ -3,33 +3,6 @@ Machine Learning Project for Customer Churn Prediction (Zindi Africa)
 This repository contains a complete, modular implementation for the Expresso Churn Prediction Challenge, a supervised ML competition hosted on Zindi Africa. The objective is to predict whether a customer will churn—defined as becoming inactive and making no transactions for 90 days.
 The project includes data ingestion, preprocessing, model training, prediction scripts, and an optional API layer for deployment.
 
-📁 Folder Structure
-.
-├── notebooks/
-│   ├── Expresso_Churn_Prediction.ipynb
-│   └── Expresso_Churn_Prediction_Modeling.ipynb
-│
-├── src/
-│   ├── api/
-│   │   ├── Catboost.pkl           # Deployed CatBoost model
-│   │   └── main.py                # Optional API (FastAPI/Flask)
-│   │
-│   ├── data/
-│   │   ├── raw/                   # Original Zindi dataset (user‑downloaded)
-│   │   ├── predicted/             # Model-generated predictions
-│   │   └── ingest_data.py         # Script to load/validate datasets
-│   │
-│   ├── models/
-│   │   └── trainer.py             # Model training logic
-│   │
-│   ├── preprocess/
-│   │   └── (preprocessing modules: cleaning, FE, encoders…)
-│   │
-│   ├── pipeline.py                # End‑to‑end training pipeline
-│   └── predict.py                 # Inference script for submission files
-│
-├── requirements.txt
-└── README.md
 
 
 📘 Overview of the Competition
